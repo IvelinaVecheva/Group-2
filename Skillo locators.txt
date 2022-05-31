@@ -1,0 +1,23 @@
+Skillo logo
+//img[@id='homeIcon']
+
+Home button 
+//a[@id='nav-link-home']
+//a[text()='Home']
+
+Profile Page
+//a[@id='nav-link-profile']
+41 posts
+//li[text()=' posts']/descendant::strong
+0 followers
+//li[@id='followers']/descendant::strong
+1 following
+//li[@id='following']/descendant::strong
+test51
+//strong[contains(text(), 'test51')]
+All
+//label[contains(@class, 'btn-all')]
+Public
+//label[contains(@class, 'btn-public')]
+Private
+//label[contains(@class, 'btn-private')]
